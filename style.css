@@ -203,3 +203,80 @@ body {
 .next-btn {
   right: 0;
 }
+
+
+/* Responsive Styles */
+@media (max-width: 900px) {
+  .hero-section {
+    flex-direction: column;
+    padding: 40px 10px;
+    text-align: center;
+  }
+  .hero-content {
+    padding-right: 0;
+    min-width: unset;
+  }
+  .hero-image {
+    justify-content: center;
+    margin-top: 24px;
+  }
+  .hero-image img {
+    max-width: 80%;
+    border-width: 3px;
+  }
+  .section {
+    padding: 40px 10px;
+    max-width: 98%;
+    margin-top: 20px;
+  }
+  .skills {
+    flex-direction: column;
+    gap: 12px;
+  }
+  .carousel-container {
+    max-width: 100vw;
+    padding: 20px 0;
+  }
+  .carousel-track {
+    gap: 12px;
+    padding: 8px 0;
+  }
+  .video-slide {
+    width: 90vw;
+    max-width: 340px;
+    height: 200px;
+  }
+  .carousel-button {
+    padding: 10px 14px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero-section {
+    padding: 24px 2vw;
+  }
+  .hero-content h1 {
+    font-size: 1.5rem;
+  }
+  .section {
+    padding: 24px 2vw;
+    font-size: 16px;
+  }
+  .skills div i {
+    font-size: 1.5rem;
+  }
+  .video-slide {
+    width: 96vw;
+    max-width: 100vw;
+    height: 180px;
+  }
+  .carousel-button {
+    padding: 8px 10px;
+    font-size: 18px;
+  }
+  .footer {
+    padding: 16px 2vw;
+    font-size: 12px;
+  }
+}
